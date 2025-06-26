@@ -1,0 +1,37 @@
+/*common Styles for external pages*/
+#workbenchPageContent {
+  max-width: 100%;
+}
+.CanvasToolboxHint-plusButtonWrapper {
+  display: none !important;
+}
+.headerRow-106 {
+  display: none !important;
+}
+div[data-automationid="SiteHeader"] {
+  display: none !important;
+}
+.sp-appBar {
+  display: none !important;
+}
+.commandBarWrapper {
+  display: none !important;
+}
+#CommentsWrapper {
+  display: none;
+}
+.content_3f3fd3c2,
+.CanvasZone {
+  padding: 0 !important;
+  max-width: 100% !important;
+}
+.ControlZone {
+  margin: 0px;
+  padding: 0px;
+}
+.spAppAndPropertyPanelContainer {
+  padding: 0px;
+}
+[data-automationid="SimpleFooter"] {
+  display: none !important;
+}
