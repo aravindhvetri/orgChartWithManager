@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "org-chart-client-side-solution",
+    "id": "3767f763-d2ca-4eb1-a9ac-ea38c6a69faf",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "orgChart description"
+      },
+      "longDescription": {
+        "default": "orgChart description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "org-chart Feature",
+        "description": "The feature that activates elements of the org-chart solution.",
+        "id": "8c5ea9ef-0af1-4de9-94be-b2debf5b4a05",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/org-chart.sppkg"
+  }
+}
