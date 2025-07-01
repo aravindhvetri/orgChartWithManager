@@ -35,3 +35,114 @@ div[data-automationid="SiteHeader"] {
 [data-automationid="SimpleFooter"] {
   display: none !important;
 }
+
+/*organization chart styles*/
+.p-organizationchart .p-organizationchart-node-content {
+  background: #6f667499;
+  color: white;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+}
+.p-organizationchart .p-organizationchart-node-content .p-node-toggler {
+  background: white;
+  color: black;
+  border-radius: 50%;
+}
+.p-organizationchart .p-organizationchart-line-top {
+  border-color: #00000063;
+}
+.p-organizationchart .p-organizationchart-line-left {
+  border-color: #00000063;
+}
+.p-organizationchart .p-organizationchart-line-down {
+  background: #00000063;
+}
+.p-node-toggler svg {
+  height: 12px;
+  width: 12px;
+}
+.OrgHeading {
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 1px;
+  word-spacing: 6px;
+  margin: 20px 0px 0px 20px;
+}
+.p-organizationchart {
+  padding: 20px;
+  margin: 20px;
+  overflow: auto;
+}
+.nodeTemplateContainer {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.nodeTemplateContainer img {
+  position: absolute;
+  content: "";
+  right: -46px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid white;
+}
+.nodeTitle {
+  background: white;
+  border-radius: 2px;
+  padding: 4px 12px 4px 12px;
+  font-size: 10px;
+  color: black;
+  margin-top: 8px;
+}
+
+/*sidebar styles*/
+.selectedUserContainer {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.selectedUserImageContainer {
+  width: 80px;
+  height: 80px;
+  border: 4px solid #6f667499;
+  border-radius: 50%;
+}
+.selectedUserImageContainer img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.selectedUserDetails {
+  font-size: 14px;
+}
+.selectedUserDetails .sideHeading {
+  padding-right: 8px;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+.p-sidebar-left .p-sidebar {
+  width: 24rem;
+}
+.p-overlaypanel .p-overlaypanel-content {
+  padding: 12px;
+}
+
+/*people picker styles*/
+.ms-BasePicker-text {
+  border: 1px solid #a9a3aca8;
+  border-radius: 4px;
+}
+.ms-BasePicker-text:hover {
+  border-color: #a9a3aca8 !important;
+}
+.ms-BasePicker .ms-SelectionZone {
+  display: flex;
+  justify-content: end;
+}
